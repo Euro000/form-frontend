@@ -1,0 +1,81 @@
+/* app/globals.css */
+
+/* Basic reset / global rules */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #f5f6fa; /* light gray or off-white background */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* A common container that centers content, with a card style */
+.container {
+  max-width: 480px;
+  margin: 3rem auto; /* center horizontally with top/bottom space */
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+/* Heading inside the container */
+.container h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column; 
+}
+
+/* Input fields */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="file"] {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Buttons */
+button {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  background: #0070f3;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #005bb5;
+}
+
+/* Just some minor spacing if needed */
+label {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.spacer {
+  margin: 1.5rem 0;
+}
+
+/* If you want a simple link style */
+a {
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: 600;
+}
+a:hover {
+  text-decoration: underline;
+}
